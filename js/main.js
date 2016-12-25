@@ -5,7 +5,7 @@ function main() {
 
             var $container = $('.project-items');
             $container.isotope({
-                filter: '*',
+                filter: '.nostrud',
                 animationOptions: {
                     duration: 750,
                     easing: 'linear',
@@ -112,11 +112,11 @@ function main() {
 
 
             // *************************************************** Reveal
-            $('.about-title').on('click', {title: ".about-title", content: ".about-content", percent: "75%"},  DisplayContents);
-            $('.work-title').on('click', {title: ".work-title", content: ".work-content", percent: "100%"},  DisplayContents);
-            $('.projects-title').on('click', {title: ".projects-title", content: ".projects-content", percent: "75%"},  DisplayContents);
-            $('.social-title').on('click', {title: ".social-title", content: ".social-content", percent: "30%"},  DisplayContents);
-            $('.section-title').on('click', {title: ".section-title", content: ".section-content", percent: "50%"},  DisplayContents);
+            // $('.about-title').on('click', {title: ".about-title", content: ".about-content", percent: "75%"},  DisplayContents);
+            // $('.work-title').on('click', {title: ".work-title", content: ".work-content", percent: "100%"},  DisplayContents);
+            // $('.projects-title').on('click', {title: ".projects-title", content: ".projects-content", percent: "75%"},  DisplayContents);
+            // $('.social-title').on('click', {title: ".social-title", content: ".social-content", percent: "30%"},  DisplayContents);
+            // $('.section-title').on('click', {title: ".section-title", content: ".section-content", percent: "50%"},  DisplayContents);
 
 
             // *************************************************** Helper Function to reveal
