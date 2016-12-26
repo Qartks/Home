@@ -181,12 +181,17 @@ nav li {
 }
 
 
+#collapse {
+    display: none;
+    opacity: 0;
+}
+
 /* Intro - Landing */
 
 #intro {
     display: table;
     width: 100%;
-    height: inherit;
+    /*height: inherit;*/
     padding: 100px 0;
     text-align: center;
     /*background: -webkit-linear-gradient(135deg, #343a33, #02221a, #000A00, #000A00, #02221a, #343a33);*/
@@ -222,7 +227,7 @@ nav li {
 
 @media(min-width:768px) {
     #intro {
-        height: 100%;
+        height: 50%;
         padding: 0;
     }
     #intro .intro-body .intro-text {
@@ -285,8 +290,8 @@ div.about-body {
 }
 
 .about-content {
-    /*display: none;*/
-    /*opacity: 0;*/
+    display: none;
+    opacity: 0;
     transition: all 1s ease-out;
     align-content: center;
 }
@@ -351,7 +356,7 @@ div.work-body {
 
 @media(min-width:768px) {
     .job {
-        font-size: 16.5px;
+        font-size: 18px;
     }
 
     .job h3{
@@ -370,8 +375,8 @@ div.work-body {
 }
 
 .work-content {
-    /*display: none;*/
-    /*opacity: 0;*/
+    display: none;
+    opacity: 0;
     transition: all 1s ease-out;
 }
 
@@ -437,8 +442,8 @@ div.project-body {
 }
 
 .projects-content {
-    /*display: none;*/
-    /*opacity: 0;*/
+    display: none;
+    opacity: 0;
     transition: all 1s ease-out;
 }
 
@@ -630,8 +635,8 @@ div.social-body {
 }
 
 .social-content {
-    /*display: none;*/
-    /*opacity: 0;*/
+    display: none;
+    opacity: 0;
     transition: all 1s ease-out;
 }
 
@@ -639,51 +644,6 @@ div.social-body {
     display: inherit;
 }
 
-
-/*  Webdev  */
-
-#main-section {
-    display: table;
-    font-family: 'Roboto Condensed', sans-serif;
-    background: #31725f;
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #31725f), color-stop(100%, #2c4c63));
-    background: -webkit-linear-gradient(top, #31725f 0%, #2c4c63 100%);
-    background: linear-gradient(to bottom, #31725f 0%, #2c4c63 100%);
-    width: 100%;
-    padding: 100px 0;
-}
-
-div.section-body {
-    display: table-cell;
-    text-align: center;
-}
-
-#main-section div li {
-    display: inline-block;
-    margin: 0 20px;
-}
-#main-section i.fa {
-    font-size: 80px;
-    padding-top: 8px;
-    color: black;
-    border-radius: 4px;
-    transition: all 0.3s;
-}
-
-.section-title {
-    color: aliceblue;
-    font-weight: 800;
-    cursor: pointer;
-}
-
-.section-content {
-    display: none;
-    transition: all 1s ease-out;
-}
-
-.section-content.reveal {
-    display: inherit;
-}
 
 /* Footer */
 
