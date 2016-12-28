@@ -51,7 +51,7 @@ function main() {
         $('.my-panel').each(function () {
             var ourScene = new ScrollMagic.Scene({
                 triggerElement: this.children[0],
-                triggerHook: 0.8
+                triggerHook: 0.9
             })
                 .setClassToggle(this, 'fade-in')
                 .addTo(controller);
@@ -112,8 +112,8 @@ function main() {
 
 
             // *************************************************** Reveal
-            $('.about-title').on('click', {title: ".about-title", content: ".about-content", percent: "70%"},  DisplayContents);
-            $('.work-title').on('click', {title: ".work-title", content: ".work-content", percent: "100%"},  DisplayContents);
+            $('.about-title').on('click', {title: ".about-title", content: ".about-content", percent: "40%"},  DisplayContents);
+            $('.work-title').on('click', {title: ".work-title", content: ".work-content", percent: "90%"},  DisplayContents);
             $('.projects-title').on('click', {title: ".projects-title", content: ".projects-content", percent: "40%"},  DisplayContents);
             $('.social-title').on('click', {title: ".social-title", content: ".social-content", percent: "30%"},  DisplayContents);
 
