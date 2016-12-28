@@ -30,7 +30,7 @@ ul {
 }
 
 .my-panel {
-    padding: 10px;
+    /*padding: 10px;*/
     font-family: 'Roboto Condensed', sans-serif;
     transition: all 1s ease-out;
     opacity: 0;
@@ -153,7 +153,7 @@ nav li {
     /*background: url(../assets/texture.png);*/
     background: url(../assets/groooovy.png);
     /*background: url(../assets/tree1.png);*/
-    /*background-size: cover;*/
+    background-size: cover;
     background-attachment: fixed;
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
@@ -179,7 +179,7 @@ nav li {
         padding: 30px;
     }
     #intro .intro-body .intro-text {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 700;
         margin-bottom: 50px;
     }
