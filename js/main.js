@@ -127,7 +127,7 @@ function main() {
 
                 if (content.css('display') == 'none') {
 
-                    $(parent).animateDiv("height", 800, pert, function () {
+                    $(parent).animateDiv("height", 300, pert, function () {
 
                         content
                             .toggleClass('reveal')
@@ -137,13 +137,13 @@ function main() {
                 } else {
 
                     content
-                        .velocity( { opacity: 0 }, { duration: 1000 ,  complete: function () {
+                        .velocity( { opacity: 0 }, { duration: 500 ,  complete: function () {
                             content.toggleClass('reveal');
                             Temp();
                         } },  "easeOutSine" );
 
                     function Temp() {
-                        $(parent).animateDiv("height", 1200, "auto")
+                        $(parent).animateDiv("height", 350, "auto")
                                 // .velocity('scroll', 300);
                     }
 
