@@ -39,7 +39,7 @@ ul {
 
 @media only screen and (min-width:2000px) and (min-height: 1440px) {
     .my-panel {
-        padding: 110px;
+        padding: 100px;
     }
 }
 
@@ -315,11 +315,11 @@ div.work-body {
 
 @media(min-width:768px) {
     .job {
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .job h3{
-        font-size: 22px;
+        font-size: 21px;
     }
 
     .company-logo {
