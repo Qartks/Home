@@ -172,10 +172,10 @@ function main() {
 
 
         // *************************************************** Parallax
-        function initParallax() {
-            $('.parallax').parallax("100%", 0.3);
-        }
-        initParallax();
+        // function initParallax() {
+        //     $('.parallax').parallax("100%", 0.3);
+        // }
+        // initParallax();
 
     })();
 }
