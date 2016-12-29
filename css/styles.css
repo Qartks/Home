@@ -31,7 +31,7 @@ ul {
 
 .my-panel {
     /*padding: 3.1%;*/
-    padding: 50px;
+    padding: 50px 12px 50px 12px;
     font-family: 'EB Garamond', serif;
     transition: all 1s ease-out;
     opacity: 0;
@@ -204,7 +204,6 @@ nav li {
 /* About Me */
 
 #about {
-    font-family: 'Roboto', sans-serif;
     display: table;
     height: inherit;
     position: relative;
@@ -276,12 +275,12 @@ div.about-body {
 }
 
 .table {
-    font-size: 13px;
+    font-size: 17px;
 }
 
 @media(min-width:768px) {
     .table {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
@@ -304,7 +303,7 @@ div.work-body {
 }
 
 .job {
-    font-size: 13px;
+    font-size: 17px;
     text-align: justify;
     padding-left: 2%;
     padding-right: 4%;
@@ -316,7 +315,7 @@ div.work-body {
 
 @media(min-width:768px) {
     .job {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .job h3{
