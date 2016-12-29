@@ -310,7 +310,7 @@ div.work-body {
 }
 
 .job h3 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 @media(min-width:768px) {
@@ -319,7 +319,7 @@ div.work-body {
     }
 
     .job h3{
-
+        font-size: 22px;
     }
 
     .company-logo {
