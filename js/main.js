@@ -1,7 +1,7 @@
 function main() {
     (function () {
 
-        $(window).load(function() {
+        $(window).on('load', function() {
 
             var $container = $('.project-items');
             $container.isotope({
@@ -39,7 +39,7 @@ function main() {
 
 
         // *************************************************** Preloader
-        $(window).load(function () {
+        $(window).on('load', function () {
 
             $("#status").fadeOut("slow");
             $("#preloader").delay(500).fadeOut("slow").remove();
