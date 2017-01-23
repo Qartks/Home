@@ -19,7 +19,7 @@ function main() {
         $('.my-panel').each(function () {
             var ourScene = new ScrollMagic.Scene({
                 triggerElement: this.children[0],
-                triggerHook: 0.85
+                triggerHook: 0.9
             })
                 .setClassToggle(this, 'fade-in')
                 .addTo(controller);
