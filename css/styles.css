@@ -451,6 +451,15 @@ div.project-body {
     font-weight: 600;
 }
 
+.project-table td {
+    color: #dad55e;
+    font-weight: 600;
+}
+.project-table td i.fa {
+    color: hotpink;
+    font-weight: 600;
+}
+
 @media(min-width:768px) {
     .project-item {
         font-size: 15px;
