@@ -610,7 +610,7 @@ div.social-body {
 #social i.fa {
     font-size: 30px;
     padding-top: 8px;
-    color: beige;
+    color: aliceblue;
     transition: all 1s ease-out;
 }
 
@@ -630,7 +630,6 @@ div.social-body {
 /* Footer */
 
 #footer {
-    font-family: 'Roboto', sans-serif;
     /*background: #36363a;*/
     color: #777;
     padding: 20px 0;

@@ -1,38 +1,6 @@
 function main() {
     (function () {
 
-        $(window).on('load', function() {
-
-            var $container = $('.project-items');
-            $container.isotope({
-                filter: '.nostrud',
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-
-            $('.cat a').click(function() {
-                $('.cat .active').removeClass('active');
-                $(this).addClass('active');
-                var selector = $(this).attr('data-filter');
-                $container.isotope({
-                    filter: selector,
-                    animationOptions: {
-                        duration: 750,
-                        easing: 'linear',
-                        queue: false
-                    }
-                });
-                $("#projects").velocity("scroll", 950);
-                return false;
-            });
-
-        });
-
-
-
         // *************************************************** When Loading
         $("#my-header")
             .velocity("fadeIn", {duration: 1500});
@@ -45,7 +13,6 @@ function main() {
             // $("#preloader").delay(500).fadeOut("slow").remove();
 
         });
-
 
         // ***************************************************  ScrollMagic Fade-in
         var controller = new ScrollMagic.Controller();
@@ -70,6 +37,32 @@ function main() {
 
         // ***************************************************  When Document is loaded
         $(document).ready(function () {
+
+            var $container = $('.project-items');
+            $container.isotope({
+                filter: '.none',
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+
+            $('.cat a').click(function() {
+                $('.cat .active').removeClass('active');
+                $(this).addClass('active');
+                var selector = $(this).attr('data-filter');
+                $container.isotope({
+                    filter: selector,
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+                $("#projects").velocity("scroll", 950);
+                return false;
+            });
 
             // ***************************************************  Hover
             // $('.about-title').hover(flip180, flip0);
