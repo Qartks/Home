@@ -513,7 +513,8 @@ ol.type li a {
 }
 ol.type li a.active {
     color: aliceblue;
-    background: #262626;
+    background: tomato;
+    border-color: #262626;
 }
 ol.type li a:hover {
     background: aliceblue;
