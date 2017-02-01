@@ -11,6 +11,15 @@
             .when("/", {
                 templateUrl: "home.html"
             })
+            .when("/ParticleSystems", {
+                templateUrl: "ParticleSystems.html"
+            })
+            .when("/SVM", {
+                templateUrl: "SVM.html"
+            })
+            .when("/Disco", {
+                templateUrl: "DiscoGolem.html"
+            })
             .otherwise({
                 redirectTo: "/"
             });
