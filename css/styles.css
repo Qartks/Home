@@ -38,6 +38,12 @@ ul {
     opacity: 0;
 }
 
+@media (min-width: 992px) {
+    .my-panel {
+        width: 900px;!important;
+    }
+}
+
 .fa {
     /*font-family: 'PT Mono', sans-serif;*/
 }
