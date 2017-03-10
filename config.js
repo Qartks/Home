@@ -11,13 +11,13 @@
             .when("/", {
                 templateUrl: "home.html"
             })
-            .when("/ParticleSystems", {
+            .when("/particlesystems", {
                 templateUrl: "ParticleSystems.html"
             })
-            .when("/SVM", {
+            .when("/svm", {
                 templateUrl: "SVM.html"
             })
-            .when("/Disco", {
+            .when("/disco", {
                 templateUrl: "DiscoGolem.html"
             })
             .otherwise({

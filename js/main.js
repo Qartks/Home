@@ -108,7 +108,22 @@ function main() {
             // *************************************************** Reveal
             $('.about-title').on('click', {title: ".about-title", content: ".about-content", percent: "40%"},  DisplayContents);
             $('.work-title').on('click', {title: ".work-title", content: ".work-content", percent: "90%"},  DisplayContents);
-            $('.projects-title').on('click', {title: ".projects-title", content: ".projects-content", percent: "40%"},  DisplayContents);
+
+            $('.projects-title').on('click', function () {
+                $('.cat .active').removeClass('active');
+                $(this).addClass('active');
+                $container.isotope({
+                    filter: "none",
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+                return false;
+            });
+            // $('.projects-title').on('click', {title: ".projects-title", content: ".projects-content", percent: "40%"},  DisplayContents);
+
             $('.social-title').on('click', {title: ".social-title", content: ".social-content", percent: "30%"},  DisplayContents);
 
             // *************************************************** Helper Function to reveal
