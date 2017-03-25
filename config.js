@@ -9,7 +9,27 @@
     function Config($routeProvider) {
         $routeProvider
             .when("/", {
-                templateUrl: "home.html"
+                templateUrl: "home.html",
+                controller: function ($location) {
+                    vm = this;
+
+                    vm.goToPS = goToPS;
+                    vm.goToSVM = goToSVM;
+                    vm.goToDisco = goToDisco;
+
+                    function goToDisco() {
+                        $location.url("/disco");
+                    }
+
+                    function goToSVM() {
+                        $location.url("/svm");
+                    }
+
+                    function goToPS() {
+                        $location.url("/particlesystems");
+                    }
+                },
+                controllerAs: "model"
             })
             .when("/particlesystems", {
                 templateUrl: "ParticleSystems.html"
