@@ -1,13 +1,12 @@
 
 html, body {
-    font-family: 'PT Mono', sans-serif;
-    /*font-family: 'Source Code Pro', sans-serif;*/
-    color: ivory;!important;
+    font-family: 'Source Code Pro', sans-serif;
+    color: #2f2f2f;!important;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     width: 100% !important;
     height: 100% !important;
-    background: #262626;
+    background: ivory;
 }
 
 html {
@@ -82,7 +81,7 @@ nav a {
     line-height: 25px;
     position: relative;
     padding-right: 20px;
-    color: #ffffff;
+    color: #2f2f2f;
 
 }
 
@@ -373,20 +372,20 @@ div.work-body {
 
 .resume-btn {
     border: 1px;
-    border-color: aliceblue;
+    border-color: #2f2f2f;
     background: transparent;
 }
 
 a.btn.resume-btn {
-    color: aliceblue;
+    color: #2f2f2f;
     background: rgba(0,0,0,0);
-    border: solid 2px aliceblue;
+    border: solid 2px #2f2f2f;
     border-radius: 0px;
 }
 a.btn.resume-btn:hover,
 a.btn.resume-btn.hover {
-    border-color: #bbbbbb;
-    color: gainsboro;
+    border-color: #2f2f2f;
+    color: deeppink;
 }
 a.btn.resume-btn:active,
 a.btn.resume-btn.active {
@@ -405,7 +404,7 @@ a.btn.resume-btn.active {
     /*background: linear-gradient(to bottom, #31725f 0%, #2c4c63 100%);*/
     /*background: aliceblue;*/
 
-    color: aliceblue;
+    color: #2f2f2f;
     width: 100%;
 
     /*background: linear-gradient(to bottom, #0a5324 0%, #2c4c63 100%);*/
@@ -449,7 +448,7 @@ div.project-body {
 .project-item h3 {
     font-size: 16px;
     font-weight: 600;
-    color: yellow;
+    color: seagreen;
 }
 
 .project-item h3 a.btn{
@@ -523,18 +522,18 @@ ol.type {
 }
 
 ol.type li a {
-    color: aliceblue;
+    color: #2f2f2f;
     padding: 8px 16px;
-    border: 1px solid aliceblue;
+    border: 1px solid #2f2f2f;
     border-radius: 0px;
 }
 ol.type li a.active {
-    color: aliceblue;
+    color: #2f2f2f;
     background: tomato;
     border-color: #262626;
 }
 ol.type li a:hover {
-    background: aliceblue;
+    background: ivory;
     border-color: tomato;
     color: deeppink;
 }
@@ -627,7 +626,7 @@ div.social-body {
 #social i.fa {
     font-size: 30px;
     padding-top: 8px;
-    color: aliceblue;
+    color: #2f2f2f;
     transition: all 1s ease-out;
 }
 
