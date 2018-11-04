@@ -1,4 +1,2 @@
 # Home
-My Home Page
-
-kartikeyashukla.com
+[My Home Page](kartikeyashukla.com)
